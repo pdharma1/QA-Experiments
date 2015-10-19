@@ -45,8 +45,8 @@ public class HelloController {
 			}
 			default: {
 				logger.info("Servlet Context Path: " + uri);
-				mv.addObject("message", "Default Hello");
-				mv.setViewName("hello");
+				mv.addObject("message", "Aww Snap!");
+				mv.setViewName("404");
 				break;
 			}
 		}
