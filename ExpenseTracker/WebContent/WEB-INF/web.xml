@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Expense Tracker</display-name>
+  <description>
+	This is version 1.7 of an application to perform
+	a wild and
+	wonderful task, based on servlets and
+	JSP pages. It was written by
+	Pradeep Dharmavarapu
+	(pdharma1@johnshopkins.edu), who should be
+	contacted for
+	more information.
+</description>
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>expensetracker</web-resource-name>
+      <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <user-data-constraint>
+      <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+  </security-constraint>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <error-page>
+    <error-code>400</error-code>
+    <location>/views/error.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/views/error.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/views/error.jsp</location>
+  </error-page>
+</web-app>

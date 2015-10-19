@@ -1,0 +1,101 @@
+@CHARSET "US-ASCII";
+
+label {
+	float: left;
+	width: 7em;
+	text-align: left;
+}
+
+p {
+	text-align: center;
+}
+
+.mytext {
+	background-color: yellow;
+	float: left;
+	height:20px;
+}
+
+select{
+	font-family:Avenir,Helvetica Neue,Arial,sans-serif;
+	font-size: medium;
+}
+
+.fees {
+	float: left;
+	width: 36em;
+	text-align: left;
+}
+
+.contact {
+	float: left;
+	width: 7em;
+	text-align: left;
+}
+
+input {
+	margin-left: 1em;
+	margin-bottom: .5em;
+	background-color: "#F2F5A9";
+	float: left;
+}
+
+.email{
+	size:10em;
+}
+
+button {
+	margin-left: 7em;
+}
+
+body {
+	width: 60em;
+	font-family:Avenir,Helvetica Neue,Arial,sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	/*text-align:center;*/
+	/*background-color:#F5F6CE;*/
+}
+
+img {
+	width: 60em;
+	box-shadow: 0 0 1em rgb(5, 9, 2);
+}
+
+div {
+	box-shadow: 0 0 1em rgb(5, 9, 2);
+	background-color: #F5F6CE;
+}
+
+h1 {
+    color: #E37F1C;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+p.error{
+	text-align:left;
+	color: #E37F1C;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+label.error{
+	color:red;
+	font-style: italic;
+	font-size:medium;
+	text-align:left;
+}
+
+div#divleft{
+	box-shadow: 0 0 1em rgb(5, 9, 2);
+	background-color: #F5F6CE;
+}
+
+div#divright{
+	box-shadow: 0 0 1em rgb(5, 9, 2);
+	background-color: #F5F6CE;
+}

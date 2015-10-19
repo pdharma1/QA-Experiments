@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Lockheed Martin Dashboard</display-name>
+  <servlet>
+    <description></description>
+    <display-name>Register</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>isp.delegates.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Delegate</display-name>
+    <servlet-name>Delegate</servlet-name>
+    <servlet-class>isp.code.delegates.Delegate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delegate</servlet-name>
+    <url-pattern>/Delegate</url-pattern>
+  </servlet-mapping>
+</web-app>

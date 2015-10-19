@@ -1,0 +1,310 @@
+@CHARSET "US-ASCII";
+
+label {
+	float: left;
+	width: 12em;
+	text-align: left;
+}
+
+label.admin {
+	float: left;
+	width: 6em;
+	text-align: left;
+}
+
+label.YesNo {
+	float: left;
+	width: 6em;
+	text-align: left;
+}
+
+.label-confirm {
+	float: left;
+	color: green;
+}
+
+p {
+	float: left;
+}
+
+select.aligned {
+	float: 100em;
+}
+
+.mytext {
+	background-color: yellow;
+	float: left;
+	height: 20px;
+}
+
+select {
+	font-family: Avenir, Helvetica Neue, Arial, sans-serif;
+	font-size: medium;
+}
+
+.fees {
+	float: left;
+	width: 36em;
+	text-align: left;
+}
+
+.contact {
+	float: left;
+	width: 7em;
+	text-align: left;
+}
+
+input {
+	margin-left: 0em;
+	margin-bottom: .5em;
+	background-color: "#F2F5A9";
+	float: left;
+}
+
+.email {
+	size: 10em;
+}
+
+button {
+	margin-left: 7em;
+	width: 25em;
+}
+a{
+	color:maroon;
+	font-weight: normal;
+    line-height: 24px;
+    margin: 23px 0 -14px;
+}
+body {
+	width: 100%;
+	font-family: Avenir, Helvetica Neue, Arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+ background:url(/ExpenseTracker/imgs/background-pattern-012.png);
+	background-size: 100% 100% 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%; 
+	/*text-align:center;
+	width: 200%;
+	background-color:#F5F6CE;*/
+}
+
+.body-header {
+	width:100%;
+	/*background-color: #F7F7F9;*/
+}
+
+img.banner {
+	margin-left: 215px;
+	margin-right: auto;
+	width: 70%;
+	height: 100px;
+	box-shadow: 0 0 1em rgb(5, 9, 2);
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+hr{
+	width:69%;
+}
+
+div {
+	box-shadow: 0 0 1em rgb(5, 9, 2);
+	/*background-color: #F5F6CE;*/
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+div.approvepage {
+	box-shadow: 0 0 1em rgb(5, 9, 2);
+	background-color: #F5F6CE;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+
+.checkbox-inline {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+div.right {
+	margin-left: 45;
+	box-shadow: 0 0 1em rgb(5, 9, 2);
+	background-color: #EFEFEF;
+	float: left;
+	width: 25em;
+}
+
+h1,h2 {
+	color: #E37F1C;
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 0.5em;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	color: #507496;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 4em;
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+}
+
+p.error {
+	text-align: left;
+	color: #E37F1C;
+	font-size: 28em;
+	font-weight: bold;
+}
+
+label.error {
+	color: red;
+	font-style: italic;
+	font-size: medium;
+	text-align: left;
+}
+
+input.register {
+	color: #fff;
+	background-color: #d9534f;
+	border-color: #357ebd;
+}
+
+btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.btn-register {
+	float: right;
+	color: #fff;
+	background-color: #428bca;
+	border-color: #428bca;
+}
+
+.btn-login {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+}
+
+.btn-logout {
+	float: left;
+	color: #fff;
+	background-color: #d9534f;
+	border-color: #d9534f;
+}
+
+.btn-reset {
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	background-color: #FFA500;
+	border-color: #FFA500;
+}
+
+.btn-admin2 {
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	background-color: #428bca;
+	border-color: #428bca;
+}
+
+.btn-admin1 {
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	background-color: #f0ad4e;
+	border-color: #f0ad4e;
+}
+
+.btn-edit {
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	background-color: #FFA500;
+	border-color: #FFA500;
+}
+
+.btn-expenses {
+	color: #fff;
+	background-color: #5bc0de;
+	border-color: #5bc0de;
+}
+
+.btn-incomes {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+}
+
+.btn-update {
+	background-color: #3276B1;
+	border-color: #285E8E;
+	color: #FFFFFF;
+}
+
+.pipesep {
+	width: 8px;
+	height: 10px;
+}
+
+table.profile {
+	width: 100%;
+	border-color: silver;
+	border: 1;
+	/*text-align:center;
+	*/
+}
+
+td.amountstyle {
+	text-align: right;
+}
+
+tr.viewtrans {
+	text-align: center;
+}
+
+table.profile tr:nth-child(odd) { /*(even) or (2n 0)*/
+	background: #A4D1FF;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.profile tr:nth-child(even) { /*(odd) or (2n 1)*/
+	background: #EAF4FF;
+	margin-left: auto;
+	margin-right: auto;
+}

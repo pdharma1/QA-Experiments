@@ -1,0 +1,85 @@
+@CHARSET "US-ASCII";
+
+label {
+	float: left;
+	width: 7em;
+	text-align: left;
+}
+
+p {
+	text-align: center;
+}
+
+.mytext {
+	background-color: yellow;
+	float: left;
+	height: 20px;
+}
+
+select {
+	font-family: Avenir, Helvetica Neue, Arial, sans-serif;
+	font-size: medium;
+}
+
+.fees {
+	float: left;
+	width: 36em;
+	text-align: left;
+}
+
+.contact {
+	float: left;
+	width: 7em;
+	text-align: left;
+}
+
+input {
+	margin-left: 1em;
+	margin-bottom: .5em;
+	background-color: "#F2F5A9";
+	float: left;
+}
+
+.email {
+	size: 10em;
+}
+
+button {
+	margin-left: 7em;
+}
+
+body {
+	width: 60em;
+	font-family: Avenir, Helvetica Neue, Arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	width: 60em;
+	box-shadow: 0 0 1em rgb(5, 9, 2);
+}
+
+div {
+	box-shadow: 0 0 1em rgb(5, 9, 2);
+	background-color: #F5F6CE;
+}
+
+table.tablesummary {
+	text-indent: 1em;
+	width: 45em;
+	margin-left: 7em;
+}
+
+td.total{
+	float:right;
+	width:10em;
+	/*border-bottom-style: groove;*/
+}
+
+#horuler{
+	width: 45em;
+	font-family: Avenir, Helvetica Neue, Arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}

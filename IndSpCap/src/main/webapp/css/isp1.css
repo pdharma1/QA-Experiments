@@ -1,0 +1,104 @@
+@CHARSET "US-ASCII";
+
+body {
+/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: Avenir, Helvetica Neue, Arial, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+}
+
+select{
+	font-family:Avenir,Helvetica Neue,Arial,sans-serif;
+	font-size: medium;
+	width: 30em;
+}
+
+label.RequiredField {
+	color: red;
+}
+
+div.Container {
+	border:.1em solid grey;
+	padding:0.1em;
+	margin:center;
+	width:80%;
+}.PartContainer {
+	padding:1em;
+	width:50%;
+	margin:auto;
+}.Table {
+	display: table;
+	margin:auto;
+}.Title {
+	display: table-caption;
+	text-align: center;
+	font-weight: bold;
+	font-size: larger;
+}.Heading {
+	display: table-cell;
+	font-weight: bold;
+	text-align: center;
+	border:solid;
+	border-width:thin;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-size:medium;
+}.Row {
+	display: table-row;
+	font-size:small;
+}.Cell {
+	display: table-cell;
+	border: solid;
+	border-width: thin;
+	padding-left: 5em;
+	padding-right: 5em;
+	font-size:small;
+}.RiskHighlight {
+	display: table-cell;
+	border: solid;
+	border-width: thin;
+	padding-left: 5em;
+	padding-right: 5em;
+	background-color:#FF0000;
+	font-size:small;
+}.OnTrackHighlight {
+	display: table-cell;
+	border: solid;
+	border-width: thin;
+	padding-left: 5em;
+	padding-right: 5em;
+	background-color:#008000;
+	font-size:small;
+}.InputFields {
+	width: 30em;
+	display:inline-block;
+	font-family: Avenir, Helvetica Neue, Arial, sans-serif;
+	height:1.5em;
+	font-size: 1em;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+input.SubmitButtons {
+	height:10em;
+	width:5em;
+	font-size: 2em;
+	font-family: Avenir, Helvetica Neue, Arial, sans-serif;
+	align:right;
+}.LogoutButton{
+	background-color: #d9534f;
+	border-color: #d9534f;
+	font-size: 1em;
+	font-family: Avenir, Helvetica Neue, Arial, sans-serif;
+}
+
+hr {
+	width:50.0%;
+}
+
+fieldset {
+	align:center;
+	width:50.0%;
+	align:center;
+}
